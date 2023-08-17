@@ -69,6 +69,12 @@ body {
   padding: 10px;
 }
 
+li.nav-item a:hover {
+  background-color: #0D38D3;
+  color: #ea9ff4;
+}
+
+
 /*Additional navigation bar styling*/
 .navbar li {
   margin: 0 20px;
