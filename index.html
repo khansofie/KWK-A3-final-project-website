@@ -1,32 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scrolling Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EMPOWER4STEM</title>
+  <!-- <link rel="icon" type="image/x-icon" href="./assets/cake-logo.png"> -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
 </head>
+
 <body>
-  <nav class="navbar">
-    <div class="nav-title">EMPOWER4STEM</div>
-    <ul class="nav-links">
-      <li><a href="#section1">The Problem</a></li>
-      <li><a href="#section2">Data & Statistics</a></li>
-      <li><a href="#section3">Solutions</a></li>
-      <li><a href="#section4">Taking Action</a></li>
-      <li><a href="#section5">About Us</a></li>
-    </ul>
-  </nav>
-
-  <div id="section0" class="section">EMPOWER4STEM</div>
-  <div id="section1" class="section">The Problem</div>
-  <div id="section2" class="section">Data & Statistics</div>
-  <div id="section3" class="section">Solutions</div>
-  <div id="section4" class="section">Taking Actions</div>
-  <div id="section5" class="section">About Us</div>
-
-  <footer>&copy; EMPOWER4STEM 2023. All rights reserved.</footer>
-
   <script src="script.js"></script>
+
+  <!--
+    Hi Scholars! \(^ v ^ )
+
+    FORK THIS REPL BEFORE EDITING. Please feel free to customize this page however you would like, and add/delete anything! This template is just a launch pad to get you started. Good luck on your project! It will be incredible <3
+  
+    Some suggested steps:
+    * Change the page name in the <title></title> tags above!
+    * Read through the comments to get a feel for the layout of the code (in this .html file and in the .css file!)
+    * Change the text first, add decorations after!
+
+    Other cool features:
+    A) Add a favicon:
+      1. Uncomment line 8 to see an example favicon appear on the browser tab!
+      2. Upload an image to the "assets" folder (in the left bar)
+      3. Replace "cake-logo.png" with the name of your image!
+
+    B) Create a dropdown menu 🍔
+      1. Check out this resource! https://www.w3schools.com/css/css_dropdowns.asp
+  -->
+
+  <!-- NAV BAR 
+  reference: https://www.w3schools.com/css/css_navbar.asp -->
+  <ul class="nav">
+    
+    <div class="nav-logo">
+      <li><a href="#home">EMPOWER4STEM.</a></li>
+    </div>
+    
+    <div class="nav-links">
+      <li><a href="#section2">The Problem</a></li>
+      <li><a href="#section3">Data & Statistics</a></li>
+      <li><a href="#section4">Solutions</a></li>
+      <li><a href="#section5">Taking Action</a></li>
+      <li><a href="#section6">About Us</a></li>
+    </div>
+  
+    
+  </ul>
+
+  <!-- 1. HOME SECTION -->
+  
+  <h1>EMPOWER4STEM</h1>
+  <img src="assets/EMPOWER4STEM.jpg" alt="s" title="Women Fortune 500 company CEOs" width=600px class="center">>
+ 
+  <!-- 2. MISSION SECTION -->
+  <div class="section2" id="section2">
+    <div class="section2-text">    
+      <h2>The Problem</h2>
+      
+      <p>The divide in STEM exposure between underprivileged and affluent communities contribute to a knowledge disparity due to differences in ethnic backgrounds and socioeconomic status. Solutions emerge from diverse backgrounds and perspectives, making it vital to address the lack of representation and exposure to innovation inclusive for all.</p>
+    </div>
+  </div>
+
+  <!-- 3. STATS SECTION -->
+  <div class="section3" id="section3">
+    
+    <div class="section3-text">
+      <h2>Data & Statistics</h2>
+      <!--Dataset #1-->
+      <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/e51136f8-5e02-4da0-abaa-c09415535f9e/page/6c7ZD" frameborder="0" style="border:0" allowfullscreen></iframe>
+       <p></p><a href="https://www.kaggle.com/datasets/komalkhetlani/out-of-school-rates-global-data">https://www.kaggle.com/datasets/komalkhetlani/out-of-school-rates-global-data</a></p>
+      <p>The data provides information of the percentages of Total % of children who were out of schools. The regions more affected by this issue are Sub-Saharan Africa, South Asia, and Middle East and North Africa.</p> 
+
+    <!--Dataset #2-->
+    <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/42c1f747-5282-4bc3-8be7-35a7a868957e/page/s86ZD" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <a href="https://data.world/city-of-ny/svyi-maaj/workspace/file?filename=minority-and-women-owned-business-enterprise-statistics-1.csv">https://data.world/city-of-ny/svyi-maaj/workspace/file?filename=minority-and-women-owned-business-enterprise-statistics-1.csv</a>
+    <p>This study demonstartes how many tech companies have more female employees over male employees.They also lack people of color compared to white employees. </p>
+      
+    <p>With the lack of diversity within tech industries, it is apparent that the indutry may have biases when creating products due to the creators. Thus, we need a variety of people to create innovative and unbiased designs.</p> 
+      
+    <!--Dataset #3-->
+    <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/699d35a8-ba64-4856-a477-3dc557066509/page/qzzZD" frameborder="0" style="border:0" allowfullscreen></iframe>  
+   <p><a href="https://data.world/finance/women-fortune-500-ceos">https://data.world/finance/women-fortune-500-ceos</a></p>
+       
+    <p>Studies show that the amount of women fortune 500 CEOs throughout the years have increased, but only by merre single digits.</p>
+      
+      <p>With the lack of women CEOs there continues to be a lack of women who are leaders. This causes a lack of representation for young girls and discourages them from being innovators.</p>  
+    </div>
+
+  
+  </div>
+
+  <div class="section4" id="section4">
+    
+    <div class="section4-text">
+      <h2>Solutions</h2>
+      <p>Below are some solutions that you can implement within your surroundings to increase STEM knowledge and it's importance:</p>
+      <p>1. Start a STEM club at your school. Your club can include themes like: Not only will this increase student engagement, but it will also help students to learn more about this field and see if they are interested.</p>
+      <p>Click here for more tips: <a href="https://carlyandadam.com/thecarlyandadam/how-to-start-an-elementary-stem-club">https://carlyandadam.com/thecarlyandadam/how-to-start-an-elementary-stem-club</a></p>
+
+      <p>2. Research about areas in STEM that you are passionate about. You can look at people in the STEM field and be inspired by someone. Looking at their journey can start to help you think about yours.</p>
+
+      <p>3. Look at STEM videos in areas of biology, chemistry, physics, or conduct experiments with resources you have available by following tutorials only.</p>
+      <p>Here are some easy experiments to follow that will help to get you started: <a href="https://www.weareteachers.com/easy-science-experiments/">https://www.weareteachers.com/easy-science-experiments</a></p>
+      
+      <p>We must make a difference for STEM! Here is a link to our instagram
+        <a href="https://www.instagram.com/empower4stem/?igshid=MzRlODBiNWFlZA%3D%3D">EMPOWER4STEM Instagram</a>, where you can check out more opportunities for STEM.@Empower4STEM</p>
+      
+    </div>
+    
+    <!-- Photo by Chris Barbalis on Unsplash -->
+    <img src="assets/" alt="" title=" width="100px">
+    
+   
+  </div>
+  
+  <!-- 4. SUPPORT SECTION -->
+  <div class="section5">
+    <div class="section5-text" id="section5">    
+      <h2>Taking Action</h2>
+    
+      
+      <p>If you'd like to further support minorities and women in STEM, contact your representative. Encourage your representative to support these groups in getting access to the field of STEM.</p>
+    <p>Find you representative here: <a href="https://www.house.gov/representatives/find-your-representative">https://www.house.gov/representatives/find-your-representative</p>
+      
+       <ul>
+         <li>
+            <h2>Additional Resources</h2>
+            <p>Resource 1:</p>
+            <p>This website provides context behind our research and provides online programs for those who are interested in learning more about STEM but might not have the education avaiable to them. </p>
+           
+<a href = ”https://www.computerscience.org/resources/diversity-inclusion-in-stem/” ">https://www.computerscience.org/resources/diversity-inclusion-in-stem/</a>
+
+           
+         </li>
+         <li>
+            <p>Resource 2:</p>
+            <p>This website shows companies how they can include diversity in the workforce and to continue these efforts for equity. Reach out to companies and make them aware of the resoruces for representation in STEM.</p>
+
+        <a href= "https://www.whitehouse.gov/wp-content/uploads/2021/09/091621-Best-Practices-for-Diversity-Inclusion-in-STEM.pdf"> https://www.whitehouse.gov/wp-content/uploads/2021/09/091621-Best-Practices-for-Diversity-Inclusion-in-STEM.pdf</a>
+           
+         </li>
+         <li>
+            <p>Resource 3:</p>
+            <p>This page shows resources for companies who want to donate to causes similar as the ones on our website. It also shows a list of companies that supports entrepreneurship for women and minorities. </p>
+              
+
+               <a href= "https://innovate.unc.edu/minority-female-entrepreneurship-resources/">https://innovate.unc.edu/minority-female-entrepreneurship-resources/</a>
+                      
+                 </li>
+       </ul>
+    </div>   
+  </div>
+
+
+        
+
+ 
+  <!-- 5. ABOUT SECTION -->
+  <div class="section6" id="section6">
+    <h2>About Us</h2>
+    <div class="cards">    
+      <div class="card">
+        <h3>Sofie</h3>
+        <p>Sofie is a rising senior in Toronto, Canada. She primarily worked on developing the website using repl.it, HTML, CSS, and JavaScript and developing data visualizations. She is passionate about the integration of engineering and medicine. She hopes that this website will promote inclusivity and equity in the field of STEM.</p>
+      </div>
+      <div class="card">
+        <h3>Myckie</h3>
+        <p>Myckie a rising 12th grade student from Queens, New York. She worked mainly on gathering data from multiple reliable sources to make detailed data visualizations. In addition, worked with CSS, HTML, and javascript for the website. Hoping to learn more about software development, she wishes to major in computer science at college.  </p>
+      </div>
+      <div class="card">
+        <h3>Micaela</h3>
+        <p>Micaela is an engineering student in Lima, Peru. She worked on collecting data and developing the design in the data visualizations. She is passionate about the intersection between computer science and biotechnology. She also loves helping her cousins at school and inspiring them to pursue a career in STEM.</p>
+      </div>
+      <div class="card">
+        <h3>Victória</h3>
+        <p> Victória is a Brazilian 18-year-old girl passionate about Astrophysics and scientific research! She is also in touch with social and environmental causes, such as feminism and vegetarianism. In her free time, Victória loves to read and write poetry! </p>
+      </div>
+    </div>
+          <footer>&copy; Empower4STEM</footer>
+
+  </div>
 </body>
 </html>
